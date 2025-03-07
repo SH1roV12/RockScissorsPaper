@@ -10,6 +10,7 @@ humans.forEach(human => human.addEventListener("click", (event) => {
     let botSelection = getComputerChoice()
     console.log(humanSelection, botSelection)
     playRound(humanSelection, botSelection)
+    document.querySelector(".bot_choise").textContent = "Бот выбрал:" + botSelection
 }
 ))
 
@@ -25,6 +26,7 @@ let bot = 0;
 
 let results = document.querySelector(".result")
 console.log(results)
+
 
 
 

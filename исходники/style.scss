@@ -57,6 +57,7 @@ h1 {
 
 
 .bot_choise{
+    display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -69,4 +70,5 @@ h1 {
     width: 270px;
     height: 200px;
     border-radius: 20px;
+    text-align: center;
 }
